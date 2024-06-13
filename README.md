@@ -72,12 +72,42 @@ The "Farm Crop Identifier" employs a sophisticated Convolutional Neural Network 
    - Orchestrates the entire process from setting up the environment to running the Streamlit app.
    - Saves the trained model for future use.
 
+To run the "Farm Crop Identifier" model using Streamlit, you'll need to follow these steps:
 
-**Classifiable Products:**
+1. **Install Streamlit:**
+   If you haven't already installed Streamlit, you can do so using pip:
+   ```shell
+   pip install streamlit
+   ```
+
+2. **Prepare Your Streamlit Script:**
+   Ensure your `streamlit_app.py` script is set up correctly with the necessary imports and functions to load the model and handle image uploads.
+
+3. **Run the Streamlit App:**
+   Navigate to the directory containing your `streamlit_app.py` file in the terminal and run the following command:
+   ```shell
+   streamlit run streamlit_app.py
+   ```
+
+4. **Interact with the App:**
+   - Once the command is executed, Streamlit will start a local server, and your default web browser should automatically open the app.
+   - If the browser doesn't open automatically, you can manually navigate to the local URL provided in the terminal output, typically `http://localhost:8501`.
+
+5. **Upload Images:**
+   - Use the file uploader in the Streamlit interface to upload images of the farm produce you want to classify.
+   - The model will process the images and display the classification results along with the prediction confidence.
+
+6. **Close the App:**
+   - When you're done, you can stop the Streamlit server by pressing `Ctrl+C` in the terminal.
+
+
+This should give you a functional Streamlit app that allows users to upload images and get instant classifications from your model.
+
+ **Classifiable Products:**
 
 The model is adept at identifying a comprehensive list of farm produce, including:
 
-- Apple, Banana, Beetroot, Bell Pepper, Cabbage, Capsicum, Carrot, Cauliflower, Chilli Pepper, Corn, Cucumber, Eggplant, Garlic,  Ginger, --- - Grapes, Jalepeno, Kiwi, Lemon, Lettuce, Mango, Onion, Orange, Paprika, Pear, Peas, Pineapple, Pomegranate, Potato, Radish, Soy Beans, Spinach, Sweetcorn, Sweetpotato, Tomato, Turnip, Watermelon.
+- Apple, Banana, Beetroot, Bell Pepper, Cabbage, Capsicum, Carrot, Cauliflower, Chilli Pepper, Corn, Cucumber, Eggplant, Garlic,  Ginger, Grapes, Jalepeno, Kiwi, Lemon, Lettuce, Mango, Onion, Orange, Paprika, Pear, Peas, Pineapple, Pomegranate, Potato, Radish, Soy Beans, Spinach, Sweetcorn, Sweetpotato, Tomato, Turnip, Watermelon.
 
 
 **Contribution:**
