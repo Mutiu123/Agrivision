@@ -109,7 +109,6 @@ The model is adept at identifying a comprehensive list of farm produce, includin
 
 - Apple, Banana, Beetroot, Bell Pepper, Cabbage, Capsicum, Carrot, Cauliflower, Chilli Pepper, Corn, Cucumber, Eggplant, Garlic,  Ginger, Grapes, Jalepeno, Kiwi, Lemon, Lettuce, Mango, Onion, Orange, Paprika, Pear, Peas, Pineapple, Pomegranate, Potato, Radish, Soy Beans, Spinach, Sweetcorn, Sweetpotato, Tomato, Turnip, Watermelon.
 
-
 **Contribution:**
 The project's contribution lies in its meticulous approach to model fine-tuning, which significantly enhances classification accuracy. The Streamlit interface contributes to the project's accessibility, allowing users to interact with the model conveniently through a webpage.
 
@@ -125,5 +124,12 @@ The "Farm Crop Identifier" represents a significant advancement in agricultural 
 
 **Future Directions:**
 The project anticipates integration with IoT devices for real-time field analysis, expansion of the dataset to include more crop varieties, and the implementation of real-time feedback mechanisms for continuous learning and improvement.
+
+ **Demo results:**
+![The System Demo](https://github.com/Mutiu123/Mutiu123-/blob/main/demo/demo.png)
+
+![The System Demo](https://github.com/Mutiu123/Mutiu123-/blob/main/demo/demo1.png)
+
+![The System Demo](https://github.com/Mutiu123/Mutiu123-/blob/main/demo/demo2.png)
 
 
