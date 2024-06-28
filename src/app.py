@@ -25,7 +25,7 @@ def run_streamlit_app(model_path, data_categories, img_size):
             img = tf.keras.utils.load_img(uploaded_file, target_size=img_size)
             score = predict(model, img, img_size)
             predicted_category = data_categories[np.argmax(score)]
-            prediction_accuracy = np.max(score) * 1000
+            prediction_accuracy = np.max(score) * 100
 
             # Display the uploaded image
             st.image(uploaded_file, use_column_width=True)
